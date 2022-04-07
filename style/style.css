@@ -1,0 +1,60 @@
+@font-face {
+    font-family: Laker; /* Имя шрифта */
+    src: local('Laker');
+    src: url('../fonts/NBALAKER.ttf'); /* Путь к файлу со шрифтом */
+}
+body{
+    background: url("../pic/bground.jpg") repeat-x fixed 90%  ;
+    background-size: cover;
+    font: 18pt "Laker"  ;
+    overflow-y:scroll;
+    color: #000540;
+}
+.champ{
+    max-width: 500px;
+    max-height: 500px;
+}
+.non {
+    text-decoration: none;
+
+}
+.tab{
+    backdrop-filter: blur(25px);
+}
+.text-right{
+    text-align: right;
+}
+.textarea {
+
+    background-color: #899192 ;
+    resize: none;
+    width: 100%;
+    height: 80px;
+}
+
+.send{
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    color: #000540;
+    background-color: #899192 ;
+    font: 18pt "Laker", sans-serif ;
+}
+.header{
+    text-decoration: none;
+    font: 20pt "Laker"  ;
+    color: #000540;
+
+}
+.announce{
+    font: 17pt "Laker"  ;
+    color: #ffffff;
+}
+.menu{
+    color: #cda800
+}
+.btn{
+    max-width: 200px;
+    background-color: black;
+    color: #cda800;
+}
